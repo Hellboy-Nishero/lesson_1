@@ -1,0 +1,49 @@
+body{
+    background-color: #444;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    &:visited{
+        color: #f38787;
+    }
+}
+
+h1{
+    margin: 4px 4px;
+    color: #3e0fe8; 
+}
+h2{
+    margin: 4px 4px;
+    color: #37cf9f;
+}
+h3{
+    margin: 4px 4px;
+    color: #d017e5;
+}
+h4{
+    margin: 4px 4px;
+    color: #0bf122;
+}
+h5{
+    color: #eb1b1b;
+    margin: 4px 4px;
+}
+h6{
+    color: #4579f3;
+    margin: 4px 4px;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: arial;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0px 0px 2px #1355ef, 0px 0px 4px #1355ef, 0px 0px 6px #1355ef;
+    }
+    to{
+        text-shadow: 0px 0px 4px #1355ef, 0px 0px 8px #1355ef, 0px 0px 12px #1355ef;
+    }
+}
